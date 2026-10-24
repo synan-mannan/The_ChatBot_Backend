@@ -2024,7 +2024,7 @@ async def fill_application_form(
     uploads_dir: str = "uploads",
     model: Any | None = None,
     real_apply_enabled: bool | None = None,
-    headed: bool = True,
+    headed: bool = False,
     slow_mo_ms: int = 0,
     approved_cover_letter: str | None = None,
     review_submit_exemption: bool = False,
